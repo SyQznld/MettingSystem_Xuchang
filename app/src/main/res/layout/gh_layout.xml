@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--总规图-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_xc_zgt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="7"
+            android:text="@string/xc_zgt"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:visibility="gone"
+            android:id="@+id/rb_xc_zgt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="置顶"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:background="#ccc" />
+
+
+</LinearLayout>

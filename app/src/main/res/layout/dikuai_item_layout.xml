@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_dk_item"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_dk_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="111111111"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="7dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_dk_weizhi"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/dk_weizhi_bg"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/dikuai_weizhi"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_dk_xzyx"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/dk_xzyx_bg"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/dikuai_xzyx"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <color name="colorPrimary">#1097ce</color>
+    <color name="colorPrimaryDark">#1097ce</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="transparent">#7f3C3F41</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+    <color name="dikuai_weizhi">#F4A460</color>
+    <color name="yellow">#ffeb3d</color>
+
+</resources>

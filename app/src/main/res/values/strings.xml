@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">许昌市会议支持助手</string>
+
+
+    <string name="dikuai_weizhi">位置图</string>
+    <string name="dikuai_xzyx">基本情况</string>
+
+    <string name="xc_yx">正射影像</string>
+    <string name="xc_zgt">总体规划</string>
+    <string name="xc_lmlw">路名路网</string>
+</resources>
